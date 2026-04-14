@@ -1,0 +1,58 @@
+name: pothole_detection_app
+description: A Flutter application for the PFA pothole detection project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"  # Updated SDK constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.5  # Updated version
+
+  # State management
+  provider: ^6.1.4
+
+  # Camera and image processing
+  camera: ^0.10.5  # Updated version with bug fixes
+  image: ^4.1.4    # Updated version
+
+  flutter_form_builder: ^8.0.0  # Updated major version
+
+  # Firebase
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.16.0
+  google_maps_flutter: ^2.2.3  # Updated version
+  geolocator: ^10.1.0         # Updated major version
+  cloud_firestore: ^4.8.0      # Updated version
+  firebase_storage: ^11.0.0
+  image_picker: ^1.0.4         # Updated version
+
+  # Additional recommended packages
+  path_provider: ^2.1.1        # For file handling
+  path: ^1.8.3                 # For path manipulation
+  flutter_image_compress: ^2.0.0 # For image compression
+
+
+  intl: ^0.17.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0        # Updated version
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/best.ort   # Recommended to add a placeholder asset
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Ubuntu-Bold.ttf
+          weight: 600

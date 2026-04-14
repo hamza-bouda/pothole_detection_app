@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "51519971457",
+    "project_id": "pothole-detection-app-a126c",
+    "storage_bucket": "pothole-detection-app-a126c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51519971457:android:3e81c17b51f9a3a2d9ad80",
+        "android_client_info": {
+          "package_name": "com.example.pothole_detection_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD70Z79AFLIfN6-6ByoWT-kvSsgy0XM1Mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
